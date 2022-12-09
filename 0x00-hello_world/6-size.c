@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-	printif("size of char is=%i byte(s)\n",sizeof(char));
-	printif("size of int  is=%i byte(s)\n",sizeof(int));
-	printif("size of long int  is=%i byte(s)\n",sizeof(long int));
-	printif("size of long long int  is=%i byte(s)\n",sizeof(long long int));
-	printif("size of float is=%i byte(s)\n",sizeof(float));
+	printif("size of char: %lu byte(s)\n",sizeof(char));
+	printif("size of int: %lu byte(s)\n",sizeof(int));
+	printif("size of long int: %lu byte(s)\n",sizeof(long int));
+	printif("size of long long int: %lu  byte(s)\n",sizeof(long long int));
+	printif("size of float: %lu  byte(s)\n",sizeof(float));
 	return (0);
 }
