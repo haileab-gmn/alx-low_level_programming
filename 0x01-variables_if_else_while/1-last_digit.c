@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - random function last digit
+ * main - Entry
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -14,6 +14,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	d = n % 10;
+
 
 	if (d > 5)
 	{
@@ -25,7 +26,7 @@ int main(void)
 	}
 	else
 	{
-		printf("last digit of %d is %d and and is less than 6 and not 0\n", n, d);
+		printf("last digit of %d is %d and is less than 6 and not 0\n", n, d)'
 	}
 	return (0);
 }
