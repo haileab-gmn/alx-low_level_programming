@@ -1,22 +1,22 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - Entry
  *
- * Return always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-        char c;
+	char b;
 
 	char u;
 
-	c = 'a';
+	b = 'a';
 	u = 'A';
 	while
-		(c <= 'z')
+		(b <= 'z')
 		{
-			putchar(c);
-			c++;
+			putchar(b);
+			b++;
 		}
 	while
 		(u <= 'Z')
@@ -24,7 +24,6 @@ int main(void)
 			putchar(u);
 			u++;
 		}
-	putchar('n');
-        return (0);
+	putchar('\n');
+	return (0);
 }
-
