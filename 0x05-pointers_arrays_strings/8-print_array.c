@@ -8,11 +8,14 @@
  */
 void print_array(int *a, int n)
 {
-	int i;
+	int f;
 
-	for (i = 0; i < (n - 1); i++)
-		printf("%d, ", a[i]);
-	if (i == (n - 1))
-		printf("%d", a[n - 1]);
+	for (f = 0; f < n; f++)
+	{
+		printf("%d", a[f]);
+		if (f != n - 1)
+			printf(", ");
+	}
+
 	printf("\n");
 }
